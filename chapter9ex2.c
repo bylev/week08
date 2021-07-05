@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
+//my variables//
 void compare (char string1 [100], char string2[100])
 
-{
+{ //using if to know if it is false or true//
 	if (strcmp(string1, string2)==0){
 		
 		 printf("true");
@@ -18,7 +19,7 @@ else {
 
 
  int main () 
- {
+ { //here i'm comparing, putting in proof my code//
   char string1 [100];
 	char string2 [100];
 
